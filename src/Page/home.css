@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+.top-menu li {
+  list-style-type: none;
+  cursor: pointer;
+  color: #003356;
+  font-size: 18px;
+}
+
+.top-menu a {
+  text-decoration: none;
+  position: relative;
+}
+.top-menu a:hover {
+  list-style-type: none;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+.top-menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+}
+
+.button-73 {
+  appearance: none;
+  background-color: #ffc229;
+  border-radius: 40em;
+  border-style: none;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 10px;
+  color: #003356;
+}
+
+.button-73:hover {
+  background-color: #003356;
+  color: #ffc229;
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    padding: 0.75rem 2rem;
+  }
+}
+.form-inline {
+  display: flex;
+  margin-right: 100px;
+}
+.secondnab li {
+  list-style-type: none;
+}
+.secondnab a {
+  text-decoration: none;
+}
